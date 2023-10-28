@@ -13,6 +13,7 @@ class Servos {
         int accel;
         int pwn_min;
         int pwm_max;
+        bool on_the_move;
 
     public:
         Servos(ServoSmooth* _servo, byte _pin, byte _start_pos, byte _end_pos, int _pwm_min, int _pwm_max); 

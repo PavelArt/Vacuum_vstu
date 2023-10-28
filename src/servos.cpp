@@ -63,3 +63,5 @@ void Servos::toEndPos() {
     this->servo->setTargetDeg(this->end_pos);
     this->servo->tickManual();
 }
+
+
